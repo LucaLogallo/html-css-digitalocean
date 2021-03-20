@@ -48,6 +48,9 @@ main{
 
 
 /* sezione deploy and scale seamlessly */
+.ll_delayandscale {
+  background-color: red;
+}
 
 .ll_delayandscale .container{
   padding-left: 40px;
@@ -62,5 +65,87 @@ main{
 }
 /* classe da cancellare una volta finito l'esercizio */
 .ll_delayandscale .container .row .ll_nested{
+  height: auto;
+}
+
+/* sezione con titolo designed for developers */
+
+.ll_designedfordevelopers .container{
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.ll_designedfordevelopers .container .row [class*="col-"]{
+  height: 100px;
+  border: 2px solid red;
+}
+
+/* sezione con titolo features */
+.ll_features .container{
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.ll_features .container .row [class*="col-"]{
+  height: 100px;
+  border: 2px solid orange;
+}
+
+/* sezione con la tabella */
+.ll_tabellatestspeed {
+  background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}
+.ll_tabellatestspeed .container{
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.ll_tabellatestspeed .container .row [class*="col-"]{
+  height: 100px;
+  border: 2px solid green;
+}
+
+/* sezione get started */
+.ll_getstarted{
+  background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}
+
+.ll_getstarted .container{
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.ll_getstarted .container .row [class*="col-"]{
+  height: 100px;
+  border: 2px solid green;
+}
+
+/* footer */
+
+.ll_footer{
+  background-color: chocolate;
+}
+
+.ll_footer .container{
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.ll_footer .container .row [class*="col-"]{
+  height: 100px;
+  border: 2px solid black;
+}
+
+.ll_footer .container .row .ll_nested{
   height: auto;
 }
