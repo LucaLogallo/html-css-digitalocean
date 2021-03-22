@@ -133,6 +133,12 @@ main{
 .ll_jumbotron .container .row .container-fluid{
   height: 100%;
 }
+
+@media all and (max-width: 480px){
+  .ll_jumbotron .container>.row>[class*="col-"]{
+    height:600px;
+  }
+}
 /* sezione con i loghi */
 
 .ll_loghi{
