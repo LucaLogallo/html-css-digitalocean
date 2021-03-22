@@ -1,4 +1,14 @@
 /* classi generali */
+
+/* padding */
+
+.ll_padding_left0{
+  padding-left: 0;
+}
+
+.ll_padding_left47{
+  padding-left: 47px;
+}
 /* margin */
 
 .ll_margin_left_40{
