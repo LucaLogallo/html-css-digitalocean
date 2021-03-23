@@ -6,6 +6,11 @@
 .ll_fs_23{
   font-size: 23px;
 }
+
+.ll_alignright{
+  text-align: right;
+}
+
 /* bottoni */
 
 /* bbottone sing up */
@@ -52,7 +57,18 @@
 .ll_margin_bottom_20{
   margin-bottom: 20px;
 }
+
+.ll_margin_auto{
+  margin: auto;
+}
 /* bordi container */
+.ll_bordo1sw{
+  width: 100%;
+  border-bottom: 1px solid white;
+}
+.ll_bordo1sw_special{
+  width: 100%;
+}
 
 .ll_border_radius{
   border-radius: 10px;
@@ -65,6 +81,9 @@
   box-shadow:         3px 3px 3px 0px rgba(50, 50, 50, 0.55);
 }
 /* colori */
+.coloreverdeacqua{
+  color: #00d3d1;
+}
 .colorebluscuro{
   color: #031c4e;
 }
@@ -91,6 +110,11 @@
   color: #006aff;
 }
 
+/* container */
+
+.ll_box50{
+  width: 50%;
+}
 
 
 
@@ -311,18 +335,12 @@ main{
   /* border: 2px solid red; */
 }
 
-
-.ll_designedfordevelopers .container .row.col-xs-8.col-xs-offset-2 img::after{
-  content: 'f104';
-  display: inline-block;
-}
-
-.ll_designedfordevelopers .container .row .col-xs-6.col-xs-offset-3 ul{
+.ll_designedfordevelopers .text-center ul.text-center ul{
   list-style:none;
   padding: 0;
 }
 
-.ll_designedfordevelopers .container .row .col-xs-6.col-xs-offset-3 ul li{
+.ll_designedfordevelopers .text-center ul.text-center li{
   display: inline-block;
 
 }
@@ -339,6 +357,23 @@ main{
   background-color: #006aff;
 }
 
+.ll_designedfordevelopers .text-center .glyphicon.glyphicon-chevron-left{
+  font-size: 40px;
+  color: #031c4e;
+}
+
+.ll_designedfordevelopers .text-center .glyphicon.glyphicon-chevron-right{
+  font-size: 40px;
+  color: #031c4e;
+}
+
+.ll_designedfordevelopers .text-center .glyphicon.glyphicon-chevron-left:active{
+  color: #6f7b97;
+}
+.ll_designedfordevelopers .text-center .glyphicon.glyphicon-chevron-right:active{
+  color: #6f7b97;
+}
+
 
 /* sezione con titolo features */
 .ll_features .container{
@@ -347,13 +382,12 @@ main{
 }
 
 .ll_features .container .row [class*="col-"]{
-  height: 100px;
-  border: 2px solid orange;
+  /* height: 100px; */
 }
 
 /* sezione con la tabella */
 .ll_tabellatestspeed {
-  background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+  background-image: linear-gradient(#0047c5, #001e9a);
 }
 .ll_tabellatestspeed .container{
   padding-top: 60px;
@@ -361,13 +395,54 @@ main{
 }
 
 .ll_tabellatestspeed .container .row [class*="col-"]{
-  height: 100px;
-  border: 2px solid green;
+  /* height: 100px; */
+  /* border: 2px solid green; */
 }
 
+/* sezione rockerspeed */
 
+.ll_rockerbox .text-center ul.text-center ul{
+  list-style:none;
+  padding: 0;
+}
 
+.ll_rockerbox .text-center ul.text-center li{
+  display: inline-block;
 
+}
+
+.ll_circle{
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  border: 1px solid #006aff;
+}
+
+.ll_circle:active{
+  background-color: #006aff;
+}
+
+.ll_rockerbox .text-center .glyphicon.glyphicon-chevron-left{
+  font-size: 40px;
+  color: #031c4e;
+}
+
+.ll_rockerbox .text-center .glyphicon.glyphicon-chevron-right{
+  font-size: 40px;
+  color: #031c4e;
+}
+
+.ll_rockerbox .text-center .glyphicon.glyphicon-chevron-left:active{
+  color: #6f7b97;
+}
+.ll_rockerbox .text-center .glyphicon.glyphicon-chevron-right:active{
+  color: #6f7b97;
+}
+
+.ll_rockerbox .text-center .ll_box50{
+  display: inline-block;
+}
 
 
 
@@ -376,7 +451,7 @@ main{
 
 /* sezione get started */
 .ll_getstarted{
-  background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+  background-image: linear-gradient(#0047c5, #001e9a);
 }
 
 .ll_getstarted .container{
@@ -385,8 +460,8 @@ main{
 }
 
 .ll_getstarted .container .row [class*="col-"]{
-  height: 100px;
-  border: 2px solid green;
+  /* height: 100px;
+  border: 2px solid green; */
 }
 
 /* footer */
