@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
   
 
   <!-- Latest compiled and minified CSS -->
@@ -20,38 +21,57 @@
 
   <link rel="stylesheet" href="assets/css/style.css">
 
-  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
   <title>DIGITAL OCEAN</title>
 </head>
 <body>
   <!-- header che contiene la navbar -->
   <header>
-    <div class="ll_nav navbar-fixed-top">
+    <div class="ll_nav navbar-fixed-top b_colorebianco">
       <div class="container">
         <div class="row">
 
-          <div class="col-xs-6">
+          <div class="col-xs-3 col-lg-3">
 
-          <!-- <img src="/assets/img/logo.png" alt="">  -->
+
+          <img src="/assets/img/logo.png" alt=""> 
            
           </div>
-          <div class="col-xs-6 text-right">
-            <button type="button" class="btn "><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></button>
+          <div class="col-lg-5 visible-lg">
+            <ul class="ll_margin_bottom_0">
+              <li class="ll_margin_left_10"><a href="#" class="colorenero">Product <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a></li>
+              <li class="ll_margin_left_10">
+                <a href="#" class="colorenero">Customers</a>
+              </li>
+              <li class="ll_margin_left_10">
+                <a href="#" class="colorenero">Community <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
+              </li>
+              <li class="ll_margin_left_10">
+                <a href="#" class="colorenero">Pricing</a>
+              </li>
+            </ul>
           </div>
+          <div class="col-xs-6 col-lg-4 col-xs-offset-3 col-lg-offset-0 text-right">
+            <button type="button" class="btn hidden-lg colorecelestino"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></button>
+            <ul class="visible-lg ll_margin_bottom_0">
+              <li class="ll_margin_right_10"><a href="#" class="colorenero">Docs</a></li>
+              <li class="ll_margin_right_10"><a href="#" class="colorenero">Support <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a></li>
+              <li class="ll_margin_right_10 "><a href="#" class="colorenero">login</a></li>
+              <li class="ll_margin_right_10 "><button type="button" class="ll_button_singup btn-default">Sing Up</button></li>
+            </ul>
+            </div>
         </div>
       </div>
     </div>
   </header>
   <!-- /header che contiene la navbar -->
-
   <main>
     <!-- jumbotron -->
     <div class="ll_jumbotron">
 
       <div class="container">
         <div class="row">
-          <div class="col-xs-12 col-sm-7 ">
+          <div class="col-xs-12 col-sm-7">
             <h1 class="colorebianco">The simplest cloud platform for developers & teams</h1>
             <p>Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousands.</p>
           </div>
@@ -93,19 +113,21 @@
       <div class="container">
         <div class="row">
           <div class="col-xs-12">
+            <h1 class="text-uppercase coloregrigio">Innovative businesses trust digitalocean</h1>
             <!-- Innovative businesses trust digitalocean -->
           </div>
         </div>
         <div class="row ll_righa_loghi">
-          <div class="col-xs-6 col-md-2"></div>
-          <div class="col-xs-6 col-md-2"></div>
-          <div class="col-xs-6 col-md-2"></div>
-          <div class="col-xs-6 col-md-2"></div>
-          <div class="col-xs-6 col-md-2"></div>
-          <div class="col-xs-6 col-md-2"></div>
+          <div class="col-xs-6 col-md-2"><img src="assets/img/docker.svg" alt=""></div>
+          <div class="col-xs-6 col-md-2"><img src="assets/img/gitlab.svg" alt=""></div>
+          <div class="col-xs-6 col-md-2"><img src="assets/img/slack.svg" alt=""></div>
+          <div class="col-xs-6 col-md-2"><img src="assets/img/hashicorp.svg" alt=""></div>
+          <div class="col-xs-6 col-md-2"><img src="assets/img/wework.svg" alt=""></div>
+          <div class="col-xs-6 col-md-2"><img src="assets/img/splunk.svg" alt=""></div>
         </div>
         <div class="row">
           <div class="col-xs-12">
+            <a href="#" class="colorecelestino active">View customer stories <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
             <!-- view customer stories > da mettere in un link -->
           </div>
         </div>
@@ -119,26 +141,53 @@
       <div class="container">
 
         <div class="row">
-          <div class="col-xs-12">
-            <!-- h1 contenente delay and scale seamlessly -->
-            <!-- p contenente il testo sotto -->
+          <div class="col-xs-12 text-center">
+            <h1 class="colorebluscuro">Deploy and scale seamlessly</h1>
+            <p class="ll_fs_23 coloregrigio">Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
           </div>
         </div>
+        <div class="container">
 
-        <div class="row">
+        
+          <div class="row">
 
-          <div class="col-xs-12 col-md-3 col-lg-4 ll_menulaterale">
-            <!-- menu laterale -->
-          </div>
-          <div class="col-xs-12 col-md-9 col-lg-8 ll_nested">
+            <div class="col-xs-12 col-md-3 col-lg-4 ll_menulaterale">
+              <ul class="">
+                <li > <a href="#"class="coloregrigio">Deploy</a></li>
+                <li ><a href="#"class="coloregrigio">Manage</a></li>
+                <li> <a href="#" class="coloregrigio">Secure</a></li>
+                <li ><a href="#"class="coloregrigio">Scale</a> </li>
+                <li > <a href="#"class="coloregrigio">Monitor</a></li>
+              </ul>
+              <!-- menu laterale -->
+            </div>
+            <div class="col-xs-12 col-md-9 col-lg-8 ll_nested">
 
               <div class="row">
-                <div class="col-xs-12 col-md-6"></div>
-                <div class="col-xs-12 col-md-6"></div>
-                <div class="col-xs-12 col-md-6"></div>
-                <div class="col-xs-12 col-md-6"></div>
+                <div class="col-xs-12 col-sm-6">
+                  <img src="assets/img/cluster-deploy.svg" alt="cluster">
+                  <h4>Cluster deployments</h4>
+                  <p>Provision multiple droplets (virtual machines) in seconds with our control panel, CLI, or directly against our API</p>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                  <img src="assets/img/optimized-compute.svg" alt="optimized">
+                  <h4>Optimized compute types</h4>
+                  <p>GEt the computer resourced you need with Standard or Optimized Droplets</p>
+                </div>
               </div>
-
+              <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                  <img src="assets/img/one-click.svg" alt="one-click">
+                  <h4>One-click apps</h4>
+                  <p>Skip the install and configuration process with pre-built open source image supporting rails, Cassandra, Docker, and more.</p>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                  <img src="assets/img/global.svg" alt="global">
+                  <h4>Global availability</h4>
+                  <p>Deploy to any of our data center regions around the world.</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -148,12 +197,28 @@
     <div class="ll_designedfordevelopers">
       <div class="container">
         <div class="row">
-          <div class="col-xs-12">
+          <div class="col-xs-12 text-center">
+            <h1 class="colorebluscuro">Designed for developers</h1>
+            <p class="coloregrigio">Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.</p>
             <!-- h1 contenente il titolo designed for developers -->
             <!-- p contenente la didascalia sotto -->
           </div>
-          <div class="col-xs-12">
+          <div class="col-xs-8 col-xs-offset-2">
+
+            <img src="/assets/img/slide.jpg" alt="" class="img-responsive">
+          </div>
             <!-- immagine con le frecciette, la scritta sotto e i pallini sotto -->
+        </div>
+        <div class="row">
+          <div class="col-xs-12 text-center">
+            <h4 class="colorebluscuro">Create compute servers in 55 seconds or less.</h4>
+            <ul>
+              <li><i class="far fa-circle"></i></li>
+              <li><i class="far fa-circle"></i></li>
+              <li><i class="far fa-circle"></i></li>
+              <li><i class="far fa-circle"></i></li>
+            </ul>
+            <!-- sopra testo sotto pallini -->
           </div>
         </div>
       </div>
